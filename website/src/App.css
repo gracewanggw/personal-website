@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.photo{
+  margin-top: 25px;
+  height: 300px;
+  width: 300px;
+  border-radius: 10%;
+}
+
+.projectPhoto{
+  margin-top: 25px;
+  height: 500px;
+  width: 700px;
+  position: relative;
+}
+
+
+.profilephoto{
+  margin-top: 25px;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+p{
+  margin-top: 25px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+ul{
+  display: inline-block;
+  text-align:left;
+}
+
+body{
+  background-color:white;
+  color: black;
+  list-style-position: inside;
+}
+
+a{
+  padding-left: 8px;
+  padding-right: 8px;
+  color: black;
+  list-style-position: inside;
+}
+
+h2{
+  margin-top: 25px;
+  color: #4ECDC4;;
+}
+
+h1{
+  margin-top: 8px;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+
+
+.heading {
+  background-color: slategray;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-link {
+  margin-top: 25px;
+  color: #61dafb;
+}
+
+.tab-list {  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}
+
+button{
+  padding: 8px 20px;
+  margin-right: 8px;
+  margin-top: 8px;
+  border-radius: 4px;
+  width: 150px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: slategray;
+  color: white ;
+}
+
+button:hover{
+  background-color:lightpink;
+  color: white;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.button1{
+  padding: 8px 20px;
+  margin-right: 8px;
+  margin-top: 8px;
+  border-radius: 4px;
+  width: 150px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: slategray ;
+}
+
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.img_wrap {
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  width: 750px;
+  position: relative;
+  border: 1px solid slategray;
+  border-radius: 10%;
+}
+
+.img_description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgb(40, 73, 73);
+  border-radius: 10%;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img_wrap:hover .img_description {
+  visibility: visible;
+  opacity: .8;
+}
+
+.icons {
+  height: 48px;
+  width: 48px;
+}
+
+.gitIcon{
+  height: 64px;
+  height: 64px;
+}
+
