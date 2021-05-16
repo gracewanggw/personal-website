@@ -1,25 +1,34 @@
 import {Component} from "react"
 import pepper from "../photos/pepper.png";
 import tennisPic from "../photos/tennis.JPG";
-import hikePic from "../photos/hiking.JPG";
+import outdoorPic from "../photos/outdoor.JPG";
 
 class FunPics extends Component{
     constructor(props){
         super(props);
         this.state = {idx: 0, end: 0};
         //const dartmouth = <figure><img src={pic} alt="Hi!" className="photo"/></figure>;
-        const dog = <figure>
-            <img src={pepper} alt="Hi!" className="photo"/>
-            <figcaption>This is my dog! Her name is Pepper and she can be a bit stubborn</figcaption>
-            </figure>;
-        const hiking = <figure>
-            <img src={hikePic} alt="Hi!" className="photo"/>
-            <figcaption>I love exploring the outdoors! This is at Velvet Rocks</figcaption>
-            </figure>;
-        const tennis = <figure>
-            <img src={tennisPic} alt="Hi!" className="photo"/>
-            <figcaption> I play tennis and am looking for hitting buddies! :)</figcaption>
-            </figure>;
+        const dog =  <div class="img_wrap">
+            <img src={pepper} alt="Pepper" className="photo"/>
+            <div className="project_description">
+                <p></p>
+                <p> This is my dog Pepper! She can be quite stubborn sometimes </p>
+            </div>
+            </div>
+        const hiking = <div class="img_wrap">
+        <img src={outdoorPic} alt="Hike" className="photo"/>
+        <div className="project_description">
+            <p></p>
+            <p> I love exploring the outdoors! This is when I went snowshoeing in Utah! </p>
+        </div>
+        </div>
+        const tennis = <div class="img_wrap">
+        <img src={tennisPic} alt="Tennis" className="photo"/>
+        <div className="project_description">
+            <p></p>
+            <p> I play tennis and am looking for hitting buddies! :) </p>
+        </div>
+        </div>
         this.pics = [dog, hiking, tennis];
         this.btnTxt = ["Next", "Repeat"];
     }
@@ -42,7 +51,9 @@ class FunPics extends Component{
         <div>
             <div> 
                 <h2>Photos: </h2>
+                <p></p>
                 <h3> {this.pics[this.state.idx]}</h3>
+                <p></p>
                 <button className="button" onClick={this.nextPic}>{this.btnTxt[this.state.end]}</button>
             </div>
         </div>

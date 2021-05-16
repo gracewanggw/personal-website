@@ -11,7 +11,6 @@
 }
 
 .photo{
-  margin-top: 25px;
   height: 300px;
   width: 300px;
   border-radius: 10%;
@@ -105,6 +104,9 @@ button{
   margin-top: 8px;
   border-radius: 4px;
   width: 150px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 700;
   outline: none;
   border: none;
   cursor: pointer;
@@ -146,7 +148,7 @@ hr{
   }
 }
 
-.img_wrap {
+.project_wrap {
   margin-left: auto;
   margin-right: auto;
   height: 600px;
@@ -156,7 +158,17 @@ hr{
   border-radius: 10%;
 }
 
-.img_description {
+.img_wrap {
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  border: 1px solid slategray;
+  border-radius: 10%;
+}
+
+.project_description {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -172,7 +184,12 @@ hr{
   transition: opacity .2s, visibility .2s;
 }
 
-.img_wrap:hover .img_description {
+.project_wrap:hover .project_description {
+  visibility: visible;
+  opacity: .8;
+}
+
+.img_wrap:hover .project_description {
   visibility: visible;
   opacity: .8;
 }

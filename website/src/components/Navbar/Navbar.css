@@ -1,11 +1,14 @@
 .NavbarItems {
     background:#4ECDC4;
     height: 80px;
+    width: 100%;
     display: flex;
     justify-content: center;
+    position: relative;
     align-items: center;
     font-size: 1.2rem;
 }
+
 
 .navbar-logo{
     color: ivory;
