@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79f2c383.chunk.css",
+    "main.js": "/static/js/main.ea2984f2.chunk.js",
+    "main.js.map": "/static/js/main.ea2984f2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a91322be.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a91322be.js.map",
+    "static/js/2.c6e6d93e.chunk.js": "/static/js/2.c6e6d93e.chunk.js",
+    "static/js/2.c6e6d93e.chunk.js.map": "/static/js/2.c6e6d93e.chunk.js.map",
+    "static/js/3.7780e433.chunk.js": "/static/js/3.7780e433.chunk.js",
+    "static/js/3.7780e433.chunk.js.map": "/static/js/3.7780e433.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.79f2c383.chunk.css.map": "/static/css/main.79f2c383.chunk.css.map",
+    "static/js/2.c6e6d93e.chunk.js.LICENSE.txt": "/static/js/2.c6e6d93e.chunk.js.LICENSE.txt",
+    "static/media/githubLogo.5eab40a0.png": "/static/media/githubLogo.5eab40a0.png",
+    "static/media/instaLogo.24c4cee7.png": "/static/media/instaLogo.24c4cee7.png",
+    "static/media/outdoor.24aa9b34.JPG": "/static/media/outdoor.24aa9b34.JPG",
+    "static/media/pepper.e8e96fef.png": "/static/media/pepper.e8e96fef.png",
+    "static/media/profile.49ea5379.jpg": "/static/media/profile.49ea5379.jpg",
+    "static/media/rememberMe.a690c837.png": "/static/media/rememberMe.a690c837.png",
+    "static/media/rideNow.ba29fed8.png": "/static/media/rideNow.ba29fed8.png",
+    "static/media/tennis.5e6b317a.JPG": "/static/media/tennis.5e6b317a.JPG",
+    "static/media/tripPacker.9e74137c.png": "/static/media/tripPacker.9e74137c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a91322be.js",
+    "static/js/2.c6e6d93e.chunk.js",
+    "static/css/main.79f2c383.chunk.css",
+    "static/js/main.ea2984f2.chunk.js"
+  ]
+}
